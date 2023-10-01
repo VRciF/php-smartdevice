@@ -1,0 +1,19 @@
+{
+    "name": "vrcif/php-smartdevice",
+    "description": "PHP library to access TP-Link smart plugs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VRciF\\PhpSmartdevice\\": "src/",
+            "VRciF\\PhpSmartdeviceTest\\": "test/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
